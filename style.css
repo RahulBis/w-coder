@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    line-height: 64px;
+    font-family: 'Roboto', sans-serif;
+}
+h5{
+    color: white;
+    margin: 10px;
+    font-size: 1.11111vw;
+    
+}
+h6{
+    font-family: 'Kreon', serif;
+    color: #ffffff;
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 17px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 25px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    font-size: 15px;
+}
+
+#navbar li{
+    padding: 30px;
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+#navbar li a:hover{
+    color: white;
+    transform: scale(1.2);
+    padding: 30px 13px;
+    font-size: 20px;
+    background-color: #0064BC;
+}
+#m-banner{
+    width: 100%;
+    height: 90vh;
+}
+#main{
+    width: 100%;
+    height: 90vh;
+}
+/* first banner */
+#python{
+    background-color: black;
+    z-index: -1;
+}
+#python h1{
+    text-align: center;
+    color: white;
+}
+#HTML{
+    width: 31%;
+    height: 77vh;
+    min-width: 190px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+p{
+    margin: 10px 238px;
+    padding: 30px;
+    width: 75%;
+    font-size: 22px;
+    min-width: 327px;
+    color: white;
+    line-height: 1.6;
+}
+#css{
+    text-align: center;
+    background-color: black;
+    z-index: -1;
+}
+#cssm{
+    align-items: center;
+    height: 48vh;
+    min-width: 182px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 114px 0px;
+}
+.p2{
+    color: white;
+    margin: 10px;
+    line-height: 1.8;
+}
+.h62{
+    color: white;
+}
+#form1{
+    background-image: url("wc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 83vh;
+}
+#form1 .form{
+    margin: 10px 10px;
+}
+input{
+    display: block;
+    opacity: 90%;
+    width: 304px;
+    margin: 22px 0px;
+    padding: 12px 10px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    }
+button{
+    width: 302px;
+    padding: 17px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+button:hover{
+    background-color: #0064BC;
+}
+.cursor{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background, transform;
+    transform-origin: 100% 100% ;
+    mix-blend-mode: difference;
+}
+.link-grow{
+    transform: scale(3.5);
+    background: white;
+}
+.hovered-Link{
+    color: black;
+}
+#barcode{
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    margin: 10px 10px;
+    mix-blend-mode: difference;
+    flex-direction: column;
+}
+.qr{
+    height: 16vh;
+    width: 10%;
+    opacity: 0%;
+    margin: 5rem 0rem;
+}
+.qr:hover{
+    opacity: 100%;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+.col{
+    line-height: 2;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    text-decoration: none;
+}
+.col a{
+    text-decoration: none;
+    color: white;
+}
+footer .copyright{
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
